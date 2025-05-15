@@ -93,10 +93,10 @@ while Game == Running:
     DrawBoard()
 
     if Game == Draw:
-        print("Get back out there and go again, it's a draw!")                                                     # draws the game
+        print("Get back out there and go again, it's a draw!")                                                     
     elif Game == Win:
         player -= 1
         if player % 2 != 0:
-            print("Way to kick em' to the curb. Flawless Victory for Player 1")                                                                         # Player 1 wins
+            print("Way to kick em' to the curb. Flawless Victory for Player 1")                                                                       
         else:
-            print("Uh oh we got ourselves a champion, Player 2 comes out on top!")                                                                         # Player 2 wins
+            print("Uh oh we got ourselves a champion, Player 2 comes out on top!")                                                                    
